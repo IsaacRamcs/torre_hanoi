@@ -78,7 +78,7 @@ void mostrarTorres(Estaca *A, Estaca *B, Estaca *C) {
     preencherMatriz(B, matrizB);
     preencherMatriz(C, matrizC);
 
-    system("cls || clear");
+    system("cls");
     printf("\n");
 
     for (int i = 0; i < ALTURA_MAXIMA; i++) {
